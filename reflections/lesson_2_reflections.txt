@@ -3,19 +3,27 @@
 You initialize a repository with the command git init
 You need to do it to turn a directory into a git repository
 
-How is the staging area different from the working directory and the repository?
+2. How is the staging area different from the working directory and the repository?
+The staging area is different from the working directory because it allows certain files to be held in abeyance
 What value do you think it offers?
+It allows you to make changes without using any memory on saves or overwriting existing material.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+3. How can you use the staging area to make sure you have one commit per logical change?
+You can use the staging area to focus on what changes are being made and make sure that you are only staging the appropraite changes.
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+4. *What are some situations when branches would be helpful in keeping your history organized? How would branches help?*
 
-How do the diagrams help you visualize the branch structure?
+Some situations when branches are being used would be to create experimental features or to test out significant variations to code that will take multiple commits.
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+You can have a development branch. You can compartementalize work.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
-manually?
+5. *How do the diagrams help you visualize the branch structure?*
+The diagrams help visualize the branch structure by allowing someone to see all the different branches, which can easily get confusing if attempted to be stored all mentally.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is to combine all of the commits and to save the changes from two separate workstreams. It is seperated because there were to seprate merges.
+
+7. What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges manually?
+
+The pros are it saves a ton of time. The cons are it doesn't always know what to do and you need to manually intervene to make sure you still have working code.
